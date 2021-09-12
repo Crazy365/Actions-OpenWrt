@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
-# Revert commit
+# Reset commit
 #git reset --hard 52c8a13
 
 # Uncomment a feed source
