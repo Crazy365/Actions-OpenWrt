@@ -11,7 +11,7 @@
 #
 
 # Reset commit
-git reset --hard b442cc508b682deab8ddc0b6f2da3a3e87a0137b
+#git reset --hard b442cc508b682deab8ddc0b6f2da3a3e87a0137b
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
