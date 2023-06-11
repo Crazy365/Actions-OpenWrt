@@ -15,3 +15,8 @@
 
 # Only compile K3
 sed -i 's|^TARGET_|#TARGET_|g; s|#TARGET_DEVICES += phicomm_k3|TARGET_DEVICES += phicomm_k3|' target/linux/bcm53xx/image/Makefile
+
+# Modify kernel config
+sed -i '1i\CONFIG_ARM_CRYPTO=y' target/linux/bcm53xx/config-5.4
+sed -i '1i\CONFIG_ARM_CRYPTO=y' target/linux/bcm53xx/config-5.10
+sed -i '1i\CONFIG_ARM_CRYPTO=y' target/linux/bcm53xx/config-5.15
